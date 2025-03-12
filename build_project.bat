@@ -36,6 +36,15 @@ cmake ..
 REM Build project
 cmake --build .
 
+REM Ask user if they want to install the project
+set /p install_choice="Do you want to install %project%? (y/n): "
+if /I "!install_choice!"=="y" (
+    echo Installing %project%...
+    cmake --install .
+) else (
+    echo Skipping installation of %project%.
+)
+
 REM Go back to the main directory
 cd ..\..
 
