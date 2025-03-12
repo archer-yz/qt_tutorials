@@ -1,8 +1,11 @@
 # Qt Development in VS Code with CMake and vcpkg
 
 This repository has template and tutorials for Qt GUI development in VS code using vcpkg and CMake.
-Tutorial for general c++ development in VS Code with CMake and vcpkg can be found in [Microsoft
-Learn](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started-vscode?pivots=shell-cmd).
+Tutorial for general c++ development in VS Code with CMake and vcpkg can be found in [Manifest
+Mode](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started-vscode?pivots=shell-cmd) and
+[Classic
+Mode](https://learn.microsoft.com/en-us/vcpkg/consume/classic-mode?tabs=msbuild%2Cbuild-MSBuild).
+All projects in this repository are developed in classic mode.
 
 ## Qt Package Installation
 
